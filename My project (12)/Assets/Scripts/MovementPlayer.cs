@@ -7,11 +7,16 @@ public class MovementPlayer : MonoBehaviour
     private Rigidbody2D body;
     [SerializeField] private float speed;
     bool FacingRight = true;
+    Animator animator;
+    const string idle= "idle";
+    const string run= "run";
+    string currentstate;
 
     // Start is called before the first frame update
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +40,19 @@ public class MovementPlayer : MonoBehaviour
         {
             flip();
         }
+        if(horizontalInput != 0)
+        {
+            ChangeState(run);
+        }
+        else if(VerticalInput!=0)
+        {
+            ChangeState(run);
+        }
+        else
+        {
+            
+            ChangeState(idle);
+        }
 
     }
 
@@ -42,5 +60,11 @@ public class MovementPlayer : MonoBehaviour
     {
         FacingRight = !FacingRight;
         transform.Rotate(0f, 180f, 0f);
+    }
+    void ChangeState(string newstate)
+    {
+        if(currentstate == newstate)return;
+        animator.Play(newstate);
+        currentstate = newstate;
     }
 }
