@@ -271,6 +271,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: players blue x1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5751e1beb25e0f7439a9839ca107dd9d
+      internalID: -1977919081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x1_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 250
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca4866a368a2441a25b94883fc5eed
+      internalID: 1247765200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x1_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 254
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74f26ba450ca284ea9506d16bd9e939
+      internalID: -767043219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players blue x1_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 256
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddac5bc2c9e446d4f96547de160855cf
+      internalID: -1921984889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -283,10 +367,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Player_Idle: 60718983
+      players blue x1_4: -907174746
       players blue x1_0: 1211950158
       Player_Run_1: 106324857
+      players blue x1_1: -1977919081
       Player_Run_2: -1956755918
+      players blue x1_3: -767043219
       Player_Run_3: 1211950158
+      players blue x1_2: 1247765200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -346,6 +346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2376739684711619020}
   damage: 40
+  delay: 0
   line: {fileID: 4451561568344852520}
 --- !u!1 &5556891252062540246
 GameObject:
