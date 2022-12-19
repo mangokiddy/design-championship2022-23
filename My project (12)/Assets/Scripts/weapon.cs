@@ -8,8 +8,13 @@ public class weapon : MonoBehaviour
     public int damage = 40;
     public int delay = 500;
     public LineRenderer line;
+    MovementPlayer player;
 
     // Update is called once per frame
+    void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
+    }
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
@@ -23,6 +28,8 @@ public class weapon : MonoBehaviour
         RaycastHit2D hitInfo = Physics2D.Raycast(firePoint.position,firePoint.right);
         if(delay == 0||delay<=0)
         {
+            player.ChangeState(player.shoot);
+            
             if(hitInfo)
             {
                 Enemy enemy = hitInfo.transform.GetComponent<Enemy>();
@@ -42,7 +49,9 @@ public class weapon : MonoBehaviour
             line.enabled = true;
             yield return new WaitForSeconds(0.02f);
             line.enabled = false;
-            delay = 240;
+            delay = 150;
+            yield return new WaitForSeconds(0.25f);
+            player.ChangeState(player.idle);
         }
         
         

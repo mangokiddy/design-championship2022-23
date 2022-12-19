@@ -8,9 +8,12 @@ public class MovementPlayer : MonoBehaviour
     [SerializeField] private float speed;
     bool FacingRight = true;
     Animator animator;
-    const string idle= "idle";
-    const string run= "run";
-    string currentstate;
+    public string idle= "idle";
+    public string run= "run";
+    public string shoot = "fire";
+    
+    
+    [SerializeField]string currentstate;
 
     // Start is called before the first frame update
     private void Awake()
@@ -28,8 +31,12 @@ public class MovementPlayer : MonoBehaviour
         float VerticalInput = Input.GetAxis("Vertical");
 
         //Move according to player Input
-        body.velocity = new Vector2(horizontalInput * speed, VerticalInput * speed);
+        if(currentstate != "fire")
+        {
+            body.velocity = new Vector2(horizontalInput * speed, VerticalInput * speed);
 
+        }
+        
         //Flipping the player with right/left movement
         if(horizontalInput<0 && FacingRight)
         {
@@ -42,16 +49,25 @@ public class MovementPlayer : MonoBehaviour
         }
         if(horizontalInput != 0)
         {
-            ChangeState(run);
+            if(currentstate != shoot)
+            {
+                ChangeState(run);
+            }
         }
         else if(VerticalInput!=0)
         {
-            ChangeState(run);
+            if(currentstate != "fire")
+            {
+                ChangeState(run);
+            }
         }
         else
         {
+            if(currentstate != "fire")
+            {
+                ChangeState(idle);
+            }
             
-            ChangeState(idle);
         }
 
     }
@@ -61,7 +77,7 @@ public class MovementPlayer : MonoBehaviour
         FacingRight = !FacingRight;
         transform.Rotate(0f, 180f, 0f);
     }
-    void ChangeState(string newstate)
+    public void ChangeState(string newstate)
     {
         if(currentstate == newstate)return;
         animator.Play(newstate);
