@@ -49,7 +49,7 @@ public class weapon : MonoBehaviour
             line.enabled = true;
             yield return new WaitForSeconds(0.02f);
             line.enabled = false;
-            delay = 150;
+            delay = 100;
             yield return new WaitForSeconds(0.25f);
             player.ChangeState(player.idle);
         }
