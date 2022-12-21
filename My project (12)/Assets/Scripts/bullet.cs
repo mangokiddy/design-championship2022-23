@@ -5,7 +5,8 @@ using UnityEngine;
 public class bullet : MonoBehaviour
 {
 
-    private void OnCollisionEnter2D(Collision2D other) {
-        Destroy(gameObject, 0.01f);
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(gameObject, 0.01f);  
     }
 }

@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100;
-                                
-    
-    public void TakeDamage (int damage)
+    public int health = 3;
+
+    private void Update()
     {
-        health -= damage;
-        if (health <= 0)
+        if(health <= 0)
         {
-            Die();
+            Destroy(gameObject);
         }
     }
-         
-            
-    void Die ()
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-       
-        Destroy(gameObject);
+        if (other.gameObject.tag == "Bullet")
+        {
+            health -= 1;
+        }
     }
-        
+
 }
-    

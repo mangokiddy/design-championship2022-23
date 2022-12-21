@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class weapon : MonoBehaviour
 {
-    public Transform firePoint;
+    /*public Transform firePoint;
     public int damage = 40;
     public int delay = 500;
     public LineRenderer line;
     MovementPlayer player;
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
@@ -55,5 +55,5 @@ public class weapon : MonoBehaviour
         }
         
         
-    }
+    }*/
 }

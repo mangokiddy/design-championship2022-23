@@ -47,6 +47,8 @@ public class MovementPlayer : MonoBehaviour
         {
             flip();
         }
+
+        //animation
         if(horizontalInput != 0)
         {
             if(currentstate != shoot)
@@ -61,13 +63,18 @@ public class MovementPlayer : MonoBehaviour
                 ChangeState(run);
             }
         }
+        
         else
         {
+            /*if(Input.GetKeyDown(KeyCode.Space))
+            {
+                ChangeState(shoot);
+            }*/
+
             if(currentstate != "fire")
             {
                 ChangeState(idle);
             }
-            
         }
 
     }
