@@ -10,12 +10,15 @@ public class Firing : MonoBehaviour
 
     public float bulletForce =  20f;
     MovementPlayer player;
+    private Shake shake;
+    
     
 
     // Update is called once per frame
     void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
+        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
     }
     
     // Start is called before the first frame update
@@ -29,6 +32,7 @@ public class Firing : MonoBehaviour
     {
         if(Input.GetKeyDown("space"))
         {
+            
             StartCoroutine(Shoot());
         }
         delay -= 1;
@@ -38,6 +42,7 @@ public class Firing : MonoBehaviour
     {
         if(delay == 0||delay<=0)
         {
+            shake.CamShake();
             player.ChangeState(player.shoot);
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
