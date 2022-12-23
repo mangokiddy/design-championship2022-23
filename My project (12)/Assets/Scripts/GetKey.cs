@@ -4,18 +4,26 @@ using UnityEngine;
 
 public class GetKey : MonoBehaviour
 {
+    public GameObject Key_On_The_Head;
     // Start is called before the first frame update
     void Start()
     {
-        GameObject.Find("Key").SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.Find("KeyOnFloor").GetComponent<ContactWithPlayer>().playerHasKey = true)
+        if(GameObject.Find("KeyOnFloor").GetComponent<ContactWithPlayer>().playerHasKey == true)
         {
-            GameObject.Find("Key").SetActive(true);
+            
+            if(Key_On_The_Head != null)              // Checking if the Key gameobject still exists
+            {
+                Key_On_The_Head.SetActive(true);
+                //Debug.Log("In Contact");
+            }
+            
         }
+
     }
 }
