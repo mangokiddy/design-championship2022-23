@@ -11,11 +11,27 @@ public class Enemy : MonoBehaviour
     public string die = "Enemy_die";
     Animator animator;
     Collider2D collider;
-    
+    Rigidbody2D r;
+    SpriteRenderer sprite;
+    //AIDestinationSetter setter;
+    //AIPath path;
+    //Seeker seek;
     [SerializeField]string currentstate;
+   
+    void Start()
+    {
+        
+    }
+    
+    
     private void Awake()
     {
+        r = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
+        sprite = GetComponent<SpriteRenderer>();
+        //setter = GetComponent<AIDestinationSetter>();
+       // path = GetComponent<AIPath>();
+        //seek = GetComponent<Seeker>();
         
         animator = GetComponent<Animator>();
     }
@@ -27,12 +43,33 @@ public class Enemy : MonoBehaviour
         {
             ChangeState(die);
             collider.enabled = false;
+            r.constraints = RigidbodyConstraints2D.FreezeAll;
+           /*path.enabled = false;
+            seek.enabled = false;
+            setter.enabled = false;
             /*if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Enemy_die"))
             {
                 Destroy(gameObject);
             }*/
             
         }
+        
+        if(health>0)
+        {
+            if(!r.IsSleeping())
+            {
+                ChangeState(run);
+
+            }
+            else
+            {
+                
+                ChangeState(idle);
+            
+            
+            } 
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -48,6 +85,10 @@ public class Enemy : MonoBehaviour
         if(currentstate == newstate)return;
         animator.Play(newstate);
         currentstate = newstate;
+        if(currentstate!=newstate)
+        {
+            animator.Play(newstate,0);
+        }
     }
 
 }

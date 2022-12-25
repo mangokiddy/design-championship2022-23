@@ -13,6 +13,7 @@ public class MovementPlayer : MonoBehaviour
     public string shoot = "fire";
     
     
+    
     [SerializeField]string currentstate;
 
     // Start is called before the first frame update
