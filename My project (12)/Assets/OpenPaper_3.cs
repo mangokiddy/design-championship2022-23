@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenPaper : MonoBehaviour
+public class OpenPaper_3 : MonoBehaviour
 {
     private GameObject ThePaper;
 
     private void Start()
     {
-        ThePaper = GameObject.Find("Paper_1");
+        ThePaper = GameObject.Find("Paper_3");
         ThePaper.SetActive(false);
     }
 
