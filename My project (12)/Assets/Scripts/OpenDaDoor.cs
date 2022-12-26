@@ -23,7 +23,8 @@ public class OpenDaDoor : MonoBehaviour
     {
         if(other.gameObject.name == "Key")
         {
-            Debug.Log("Door Opened");
+            FindTheKeyText.SetActive(false);
+            //Debug.Log("Door Opened");
             Destroy(gameObject, 0.01f);
             Destroy(GameObject.Find("Key"));
         }    

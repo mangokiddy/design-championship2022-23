@@ -5,10 +5,12 @@ using UnityEngine;
 public class GetKey : MonoBehaviour
 {
     public GameObject Key_On_The_Head;
+    public GameObject KeyText;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -23,6 +25,11 @@ public class GetKey : MonoBehaviour
                 //Debug.Log("In Contact");
             }
             
+        }
+
+        if(GameObject.Find("Door") == null)
+        {
+            KeyText.SetActive(false);
         }
 
     }
