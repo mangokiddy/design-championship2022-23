@@ -9,7 +9,6 @@ public class Enemy : MonoBehaviour
     public string run= "run";
     public string shoot = "attack";
     public string die = "Enemy_die";
-    public int flash = 5;
     Animator animator;
     Collider2D collider;
     Rigidbody2D r;
@@ -45,7 +44,6 @@ public class Enemy : MonoBehaviour
             ChangeState(die);
             collider.enabled = false;
             r.constraints = RigidbodyConstraints2D.FreezeAll;
-            
            /*path.enabled = false;
             seek.enabled = false;
             setter.enabled = false;
@@ -74,16 +72,14 @@ public class Enemy : MonoBehaviour
         
     }
 
-        private void OnTriggerEnter2D(Collider2D other)
-        {
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         
-            if (other.gameObject.tag == "Bullet")
-            {
-                sprite.color = Color.red;
-                health -= 1;
-                sprite.color = Color.white;
-            }
+        if (other.gameObject.tag == "Bullet")
+        {
+            health -= 1;
         }
+    }
     public void ChangeState(string newstate)
     {
         if(currentstate == newstate)return;
