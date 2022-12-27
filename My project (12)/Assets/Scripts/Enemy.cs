@@ -13,6 +13,9 @@ public class Enemy : MonoBehaviour
     Collider2D collider;
     Rigidbody2D r;
     SpriteRenderer sprite;
+    public int delay = 200;
+    public int redelay = 200;
+    public int idledur = -350;
     //AIDestinationSetter setter;
     //AIPath path;
     //Seeker seek;
@@ -39,6 +42,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        delay -=1;
         if(health <= 0)
         {
             ChangeState(die);
@@ -63,11 +67,24 @@ public class Enemy : MonoBehaviour
             }
             else
             {
+                if(delay>0)
+                {
+                    ChangeState(shoot);
+                }
+                else
+                {
+                    ChangeState(idle);
+                }
                 
-                ChangeState(idle);
+                
+                
             
             
             } 
+        }
+        if(delay < idledur)
+        {
+            delay = redelay;
         }
         
     }
@@ -89,6 +106,13 @@ public class Enemy : MonoBehaviour
         {
             animator.Play(newstate,0);
         }
+    }
+    IEnumerator attack()
+    {
+        
+        yield return new WaitForSeconds(1);
+        
+        
     }
 
 }
