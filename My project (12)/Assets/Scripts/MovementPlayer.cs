@@ -30,12 +30,17 @@ public class MovementPlayer : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         //Get the vertical movement from input system
         float VerticalInput = Input.GetAxis("Vertical");
+        
 
         //Move according to player Input
-        if(currentstate != "fire")
+        if(currentstate == shoot)
+        {
+            body.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
+        else
         {
             body.velocity = new Vector2(horizontalInput * speed, VerticalInput * speed);
-
+            body.constraints = RigidbodyConstraints2D.None;
         }
         
         //Flipping the player with right/left movement
@@ -59,7 +64,7 @@ public class MovementPlayer : MonoBehaviour
         }
         else if(VerticalInput!=0)
         {
-            if(currentstate != "fire")
+            if(currentstate != shoot)
             {
                 ChangeState(run);
             }
