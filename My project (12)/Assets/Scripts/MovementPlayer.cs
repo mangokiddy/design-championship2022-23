@@ -49,6 +49,11 @@ public class MovementPlayer : MonoBehaviour
             body.constraints = RigidbodyConstraints2D.None;
             body.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
+
+        if(body.constraints == RigidbodyConstraints2D.None)
+        {
+            body.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
         
         //Flipping the player with right/left movement
         if(horizontalInput<0 && FacingRight)
