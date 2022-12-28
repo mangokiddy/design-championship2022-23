@@ -11,6 +11,11 @@ public class MovementPlayer : MonoBehaviour
     public string idle= "idle";
     public string run= "run";
     public string shoot = "fire";
+    public string hit = "Hit";
+
+    public int currenthealth = 5;
+    public int maxhealth = 5;
+    
     
     
     
@@ -21,6 +26,7 @@ public class MovementPlayer : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        currenthealth = maxhealth;
     }
 
     // Update is called once per frame
@@ -41,6 +47,7 @@ public class MovementPlayer : MonoBehaviour
         {
             body.velocity = new Vector2(horizontalInput * speed, VerticalInput * speed);
             body.constraints = RigidbodyConstraints2D.None;
+            body.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
         
         //Flipping the player with right/left movement
@@ -77,12 +84,20 @@ public class MovementPlayer : MonoBehaviour
                 ChangeState(shoot);
             }*/
 
-            if(currentstate != "fire")
+            if(currentstate != shoot)
             {
                 ChangeState(idle);
             }
         }
+        
 
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "enemy")
+        {
+            damage(1);
+        }
     }
 
     void flip()
@@ -95,5 +110,14 @@ public class MovementPlayer : MonoBehaviour
         if(currentstate == newstate)return;
         animator.Play(newstate);
         currentstate = newstate;
+    }
+    public void damage(int amount)
+    {
+        ChangeState(hit);
+        currenthealth-=amount;
+        if(currenthealth<=0)
+        {
+            //dosomething
+        }
     }
 }

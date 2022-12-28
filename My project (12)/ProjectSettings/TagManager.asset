@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullet
   - ScreenShake
+  - enemy
   layers:
   - Default
   - TransparentFX

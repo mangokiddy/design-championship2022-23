@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     //AIDestinationSetter setter;
     //AIPath path;
     //Seeker seek;
-    [SerializeField]string currentstate;
+    public string currentstate;
    
     void Start()
     {
@@ -60,12 +60,7 @@ public class Enemy : MonoBehaviour
         
         if(health>0)
         {
-            if(!r.IsSleeping())
-            {
-                ChangeState(run);
-
-            }
-            else
+            if(r.IsSleeping())
             {
                 if(delay>0)
                 {
@@ -76,7 +71,13 @@ public class Enemy : MonoBehaviour
                     ChangeState(idle);
                 }
                 
+
+            }
+            else
+            {
                 
+                
+                ChangeState(run);
                 
             
             
