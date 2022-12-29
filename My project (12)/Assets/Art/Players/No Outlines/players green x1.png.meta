@@ -511,7 +511,7 @@ TextureImporter:
         width: 58
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,6 +519,111 @@ TextureImporter:
       bones: []
       spriteID: e3427ce676025a64eb0e25bd68502495
       internalID: -1173053487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players green x1_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 160
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf2a97909e1854d8f6db1fe1a01bed
+      internalID: 1209875094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players green x1_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ff943a3c731a34a99395cff8aa36c2
+      internalID: -1496665785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players green x1_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 62
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cdc42722de10442a795f00c5ca0567
+      internalID: -1463884926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players green x1_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 25
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a56be0f183a6e438eae3d81258ee13
+      internalID: -1282578058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players green x1_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 28
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afb85018cc1dea4f9ad0140464c3321
+      internalID: -1545589451
       vertices: []
       indices: 
       edges: []
@@ -536,21 +641,26 @@ TextureImporter:
     nameFileIdTable:
       Player_Idle: -845453651175416010
       players blue x1_10: 9012771211332889536
+      players green x1_4: -1282578058
       players blue x1_7: 1538298404319793793
       players blue x1_4: -728909244436727022
       players blue x1_6: -1164264069027509666
+      players green x1_3: -1463884926
       players blue x1_0: -3591552613031203118
       Player_Run_1: 7927430643088319458
       players green x1_0: -1173053487
       players blue x1_8: -8984292708282352461
       players blue x1_1: -3866771974287108331
+      players green x1_5: -1545589451
       Player_Run_2: -1396096166093489214
       players blue x1_11: -474857092533192007
       players blue x1_3: -4597044664251399588
+      players green x1_2: -1496665785
       players blue x1_5: 1227081558280587587
       Player_Run_3: 1781292534199600417
       players blue x1_2: -7904116220757903311
       players blue x1_9: -4938661139490066656
+      players green x1_1: -1779325285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
