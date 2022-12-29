@@ -58,31 +58,7 @@ public class Enemy : MonoBehaviour
             
         }
         
-        if(health>0)
-        {
-            if(r.IsSleeping())
-            {
-                if(delay>0)
-                {
-                    ChangeState(shoot);
-                }
-                else
-                {
-                    ChangeState(idle);
-                }
-                
-
-            }
-            else
-            {
-                
-                
-                ChangeState(run);
-                
-            
-            
-            } 
-        }
+        
         if(delay < idledur)
         {
             delay = redelay;
@@ -96,6 +72,28 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             health -= 1;
+        }
+        if (other.gameObject.tag == "Player")
+        {
+            ChangeState(shoot);
+            
+        }
+        else
+        {
+            if(currentstate!=die)
+            {
+                ChangeState(run);
+            }
+            
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            ChangeState(run);
+            
         }
     }
     public void ChangeState(string newstate)
