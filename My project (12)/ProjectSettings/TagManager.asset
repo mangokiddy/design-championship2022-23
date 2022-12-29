@@ -7,6 +7,10 @@ TagManager:
   - Bullet
   - ScreenShake
   - enemy
+  - RedBox
+  - BlueBox
+  - GreenBox
+  - YellowBox
   layers:
   - Default
   - TransparentFX
