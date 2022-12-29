@@ -2224,6 +2224,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.74032736, y: 1.0888352}
   m_EdgeRadius: 0
+<<<<<<< HEAD
+>>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
+=======
 >>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
 --- !u!1 &699229923
 GameObject:
@@ -135661,6 +135664,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1308052755}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1326478293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135772,6 +135776,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05a81c3d5091440058129444d28322f3, type: 3}
+=======
+>>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
 =======
 >>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
 --- !u!1 &1347982896
@@ -138320,6 +138326,7 @@ TilemapCollider2D:
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1650100761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139443,6 +139450,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
 =======
 >>>>>>> 39f1947a7c7de5aecde3f596530e20724a2d6b38
 --- !u!1 &1806289303
