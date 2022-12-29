@@ -108,6 +108,11 @@ public class MovementPlayer : MonoBehaviour
         {
             R.color = Color.white;
         }
+
+        if (currenthealth <= 0)
+        {
+            Destroy(GameObject.Find("player"), 0.01f);
+        }
         
 
     }
