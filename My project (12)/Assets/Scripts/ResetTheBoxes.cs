@@ -4,24 +4,44 @@ using UnityEngine;
 
 public class ResetTheBoxes : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D other)
+    Vector3 yellowPos;
+    Vector3 greenPos;
+    Vector3 bluePos;
+    Vector3 redPos;
+    Vector3 yellowPos2;
+    Vector3 greenPos2;
+    Vector3 bluePos2;
+    Vector3 redPos2;
+    
+    private void Start()
+    {
+        yellowPos = GameObject.Find("YellowBox").transform.position;
+        greenPos = GameObject.Find("GreenBox").transform.position;
+        redPos = GameObject.Find("RedBox").transform.position;
+        bluePos = GameObject.Find("BlueBox").transform.position;
+        yellowPos2 = GameObject.Find("YellowBox2").transform.position;
+        greenPos2 = GameObject.Find("GreenBox2").transform.position;
+        redPos2 = GameObject.Find("RedBox2").transform.position;
+        bluePos2 = GameObject.Find("BlueBox2").transform.position;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.name == "player")
         {
-            //resetBoxes();
+            resetBoxes();
             Debug.Log("Reset The Boxes");
         }
     }
 
     private void resetBoxes()
     {
-        /*GameObject.Find("YellowBox").transform.position = -3.9, -5.61, 0;
-        GameObject.Find("GreenBox").transform.position = -3.55999994, 0.939999998, 0;
-        GameObject.Find("RedBox").transform.position = -9.43999958, -5.9000001, 0;
-        GameObject.Find("BlueBox").transform.position = -10.8999996,-2.19000006, 0;
-        GameObject.Find("YellowBox(1)").transform.position = -7.88000011, 0.600000024, 0;
-        GameObject.Find("GreenBox(1)").transform.position = -7.94999981, -2.30999994, 0;
-        GameObject.Find("RedBox(1)").transform.position = -3.46000004, -1.61000001, 0;
-        GameObject.Find("BlueBox(1)").transform.position = -6.03999996, -3.6099999, 0;*/
+        GameObject.Find("YellowBox").transform.position = yellowPos;
+        GameObject.Find("GreenBox").transform.position = greenPos;
+        GameObject.Find("RedBox").transform.position = redPos;
+        GameObject.Find("BlueBox").transform.position = bluePos;
+        GameObject.Find("YellowBox2").transform.position = yellowPos2;
+        GameObject.Find("GreenBox2").transform.position = greenPos2;
+        GameObject.Find("RedBox2").transform.position = redPos2;
+        GameObject.Find("BlueBox2").transform.position = bluePos2;
     }
 }
