@@ -12,6 +12,10 @@ public class MovementPlayer : MonoBehaviour
     public string run= "run";
     public string shoot = "fire";
     public string hit = "Hit";
+    public string die = "die";
+    Enemy enemy;
+    SpriteRenderer R;
+    public int hitdel;
 
     public int currenthealth = 5;
     public int maxhealth = 5;
@@ -19,19 +23,21 @@ public class MovementPlayer : MonoBehaviour
     
     
     
-    [SerializeField]string currentstate;
+    public string currentstate;
 
     // Start is called before the first frame update
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        R = GetComponent<SpriteRenderer>();
         currenthealth = maxhealth;
     }
 
     // Update is called once per frame
     void Update()
     {
+        hitdel-=1;
         //Get the horizontal movement from input system
         float horizontalInput = Input.GetAxis("Horizontal");
         //Get the vertical movement from input system
@@ -39,7 +45,7 @@ public class MovementPlayer : MonoBehaviour
         
 
         //Move according to player Input
-        if(currentstate == shoot)
+        if(currentstate == shoot||hitdel >0||currentstate == die)
         {
             body.constraints = RigidbodyConstraints2D.FreezeAll;
         }
@@ -65,18 +71,20 @@ public class MovementPlayer : MonoBehaviour
         {
             flip();
         }
+        
+        
 
         //animation
         if(horizontalInput != 0)
         {
-            if(currentstate != shoot)
+            if(currentstate != shoot&&currentstate!=die)
             {
                 ChangeState(run);
             }
         }
         else if(VerticalInput!=0)
         {
-            if(currentstate != shoot)
+            if(currentstate != shoot&&currentstate!=die)
             {
                 ChangeState(run);
             }
@@ -89,10 +97,19 @@ public class MovementPlayer : MonoBehaviour
                 ChangeState(shoot);
             }*/
 
-            if(currentstate != shoot)
+            if(currentstate != shoot&&currentstate!=die)
             {
                 ChangeState(idle);
             }
+        }
+        
+        if(currenthealth<=0)
+        {
+            ChangeState(die);
+        }
+        if(hitdel<=0)
+        {
+            R.color = Color.white;
         }
         
 
@@ -102,6 +119,15 @@ public class MovementPlayer : MonoBehaviour
         if(col.gameObject.tag == "enemy")
         {
             damage(1);
+            
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "enemy")
+        {
+            ChangeState(run);
+            
         }
     }
 
@@ -118,11 +144,11 @@ public class MovementPlayer : MonoBehaviour
     }
     public void damage(int amount)
     {
-        ChangeState(hit);
+        
+        hitdel = 0;
+        R.color = Color.red;
         currenthealth-=amount;
-        if(currenthealth<=0)
-        {
-            //dosomething
-        }
+
+        
     }
 }
