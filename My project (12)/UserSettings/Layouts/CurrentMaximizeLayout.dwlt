@@ -19,12 +19,56 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+    width: 1366
+    height: 675
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+  vertical: 0
+<<<<<<< Updated upstream
+  controlID: 50619
+=======
+  controlID: 14566
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 5072
+=======
+<<<<<<< Updated upstream
+  controlID: 50619
+=======
+  controlID: 14566
+=======
     width: 1920
     height: 987
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
+  controlID: 51202
+=======
+<<<<<<< Updated upstream
   controlID: 13784
+=======
+<<<<<<< HEAD
+  controlID: 4559
+=======
+  controlID: 13784
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -33,22 +77,83 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
+  m_EditorHideFlags: 0
+=======
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+=======
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> Stashed changes
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 295
+    y: 19
+    width: 1131
+    height: 682
+=======
+<<<<<<< HEAD
+    x: 1366
+    y: 749
+    width: 1548
+    height: 290
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    x: 155
+    y: 73
+    width: 719
+    height: 441
+=======
+    x: 1643
+    y: 73
+    width: 837
+    height: 704
+>>>>>>> Stashed changes
+=======
+=======
+<<<<<<< HEAD
+    x: 294
+    y: 73
+    width: 1131
+    height: 682
+=======
+>>>>>>> Stashed changes
     x: 220
     y: 19
     width: 893
     height: 704
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -58,13 +163,147 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Art
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+  m_ViewMode: 1
+  m_StartGridSize: 50
+  m_LastFolders:
+  - Assets/Art
+  m_LastFoldersGridSize: 50
+  m_LastProjectPath: C:\Users\SOHAM\Documents\GitHub\design-championship2022-23\My
+    project (12)
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ce780000
+    m_LastClickedID: 30926
+    m_ExpandedIDs: 00000000cc780000ce780000d078000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000cc780000ce780000d078000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a75000000000000907b0000c47500009487000098870000e08000008a760000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 50
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 155
+=======
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
+  m_TargetSize: {x: 1131, y: 661}
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+  m_TargetSize: {x: 719, y: 420}
+=======
+  m_TargetSize: {x: 837, y: 683}
+=======
   m_TargetSize: {x: 893, y: 683}
+=======
+<<<<<<< HEAD
+  m_TargetSize: {x: 1131, y: 661}
+=======
+  m_TargetSize: {x: 893, y: 683}
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -79,10 +318,39 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    m_HBaseRangeMin: -359.5
+    m_HBaseRangeMax: 359.5
+    m_VBaseRangeMin: -210
+    m_VBaseRangeMax: 210
+=======
+    m_HBaseRangeMin: -418.5
+    m_HBaseRangeMax: 418.5
+    m_VBaseRangeMin: -341.5
+    m_VBaseRangeMax: 341.5
+>>>>>>> Stashed changes
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+    m_HBaseRangeMin: -565.5
+    m_HBaseRangeMax: 565.5
+    m_VBaseRangeMin: -330.5
+    m_VBaseRangeMax: 330.5
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
     m_HBaseRangeMin: -446.5
     m_HBaseRangeMax: 446.5
     m_VBaseRangeMin: -341.5
     m_VBaseRangeMax: 341.5
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -91,7 +359,15 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
+    m_EnableMouseInput: 1
+=======
+<<<<<<< Updated upstream
     m_EnableMouseInput: 0
+=======
+    m_EnableMouseInput: 1
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -100,28 +376,98 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+      width: 719
+      height: 420
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 359.5, y: 210}
+=======
+      width: 837
+      height: 683
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 418.5, y: 341.5}
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+      width: 1131
+      height: 661
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 565.5, y: 330.5}
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
       width: 893
       height: 683
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 446.5, y: 341.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+      x: -359.5
+      y: -210
+      width: 719
+      height: 420
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 719, y: 441}
+=======
+      x: -418.5
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+      x: -565.5
+      y: -330.5
+      width: 1131
+      height: 661
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1131, y: 682}
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
       x: -446.5
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
       y: -341.5
-      width: 893
+      width: 837
       height: 683
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 837, y: 704}
+=======
   m_LastWindowPixelSize: {x: 893, y: 704}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,17 +482,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1549
     height: 987
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+  controlID: 51203
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    width: 1102
+    height: 675
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+<<<<<<< Updated upstream
+  controlID: 50583
+=======
+  controlID: 14530
+=======
+    width: 1427
+    height: 947
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+<<<<<<< HEAD
+  controlID: 5036
+=======
+<<<<<<< Updated upstream
   controlID: 13748
+=======
+<<<<<<< HEAD
+  controlID: 4523
+=======
+  controlID: 13748
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,17 +547,56 @@ MonoBehaviour:
   m_Children:
   - {fileID: 5}
   - {fileID: 7}
-  - {fileID: 9}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1549
-    height: 725
+    height: 676
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+  controlID: 50957
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    width: 1102
+    height: 462
+  m_MinSize: {x: 300, y: 50}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+<<<<<<< Updated upstream
+  controlID: 50566
+=======
+  controlID: 14525
+=======
+    width: 1427
+    height: 703
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 5028
+=======
+<<<<<<< Updated upstream
   controlID: 13743
+=======
+<<<<<<< HEAD
+  controlID: 4500
+=======
+  controlID: 13743
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,10 +614,49 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 219
-    height: 725
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 218
+    height: 676
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    width: 155
+    height: 462
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+    width: 294
+    height: 703
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> Stashed changes
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -219,10 +682,51 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1366
     y: 73
+    width: 217
+    height: 655
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+<<<<<<< Updated upstream
+    x: 0
+    y: 73
+    width: 154
+    height: 441
+=======
+    x: 1366
+    y: 73
+    width: 276
+    height: 704
+>>>>>>> Stashed changes
+=======
+    x: 0
+    y: 73
+    width: 293
+    height: 682
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
     width: 218
     height: 704
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -237,7 +741,29 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
+      m_ExpandedIDs: dceafeff06edfeff5eeefeffeefaffff
+=======
+<<<<<<< HEAD
+      m_ExpandedIDs: 6446e7ffaa56e7ff8668e7ff7c72e7ffe80bebffe657f7fff2faffff547400008274000076750000b4750000
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+      m_ExpandedIDs: e80bebffe657f7fff2faffff547400008274000076750000b4750000
+=======
+      m_ExpandedIDs: 44b9fffff0faffff907a0000ca7a0000f27a00006e7b00009e7b0000f67b0000
+=======
       m_ExpandedIDs: f2faffff
+=======
+<<<<<<< HEAD
+      m_ExpandedIDs: eefaffff
+=======
+      m_ExpandedIDs: f2faffff
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -253,7 +779,11 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
+<<<<<<< Updated upstream
         m_ClientGUIView: {fileID: 5}
+=======
+        m_ClientGUIView: {fileID: 0}
+>>>>>>> Stashed changes
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -271,23 +801,52 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 219
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 218
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    x: 155
     y: 0
-    width: 895
-    height: 725
+    width: 721
+    height: 462
+  m_MinSize: {x: 102, y: 121}
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+    x: 294
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    y: 0
+<<<<<<< HEAD
+    width: 1133
+    height: 703
+=======
+    width: 1013
+    height: 676
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_MinSize: {x: 202, y: 221}
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
-  - {fileID: 2}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,10 +867,54 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1584
+    y: 73
+    width: 1011
+    height: 655
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    x: 155
+    y: 73
+    width: 719
+    height: 441
+=======
+<<<<<<< Updated upstream
     x: 1585
     y: 73
+=======
+<<<<<<< HEAD
+>>>>>>> parent of 86b5b7d (Revert "ss")
+    x: 294
+    y: 73
+    width: 1131
+    height: 682
+<<<<<<< HEAD
+=======
+=======
+    x: 1585
+    y: 73
+>>>>>>> Stashed changes
     width: 893
     height: 704
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -598,7 +1201,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -656,9 +1259,43 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: 2.8833365, y: -0.377099, z: -0.9782615}
+    speed: 2
+    m_Value: {x: 2.8833365, y: -0.377099, z: -0.9782615}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -5.6814036, y: 12.969438, z: -0.0031224652}
+    speed: 2
+    m_Value: {x: -5.6814036, y: 12.969438, z: -0.0031224652}
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    m_Target: {x: -7.821475, y: 12.7937565, z: 0.018931894}
+    speed: 2
+    m_Value: {x: -7.821475, y: 12.7937565, z: 0.018931894}
+=======
+    m_Target: {x: 0.34943244, y: 10.01619, z: -0.032750644}
+    speed: 2
+    m_Value: {x: 0.34943244, y: 10.01619, z: -0.032750644}
+=======
     m_Target: {x: -8.298106, y: 11.168699, z: -0.003041281}
     speed: 2
     m_Value: {x: -8.298106, y: 11.168699, z: -0.003041281}
+=======
+<<<<<<< HEAD
+    m_Target: {x: 0.45357138, y: 0, z: -0.99999994}
+    speed: 2
+    m_Value: {x: 0.45357138, y: 0, z: -0.99999994}
+=======
+    m_Target: {x: -8.298106, y: 11.168699, z: -0.003041281}
+    speed: 2
+    m_Value: {x: -8.298106, y: 11.168699, z: -0.003041281}
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -696,7 +1333,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -708,9 +1345,43 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+    m_Target: 2.241385
+    speed: 2
+    m_Value: 2.241385
+=======
+<<<<<<< HEAD
+    m_Target: 3.884696
+    speed: 2
+    m_Value: 3.884696
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    m_Target: 1.6792659
+    speed: 2
+    m_Value: 1.6792659
+=======
+    m_Target: 6.2785525
+    speed: 2
+    m_Value: 6.2785525
+=======
     m_Target: 1.6396527
     speed: 2
     m_Value: 1.6396527
+=======
+<<<<<<< HEAD
+    m_Target: 2.2504904
+    speed: 2
+    m_Value: 2.2504904
+=======
+    m_Target: 1.6396527
+    speed: 2
+    m_Value: 1.6396527
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -743,6 +1414,105 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 219
+    y: 19
+    width: 1011
+    height: 655
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1011, y: 634}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 1
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -505.5
+    m_HBaseRangeMax: 505.5
+    m_VBaseRangeMin: -317
+    m_VBaseRangeMax: 317
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1011
+      height: 634
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 505.5, y: 317}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -505.5
+      y: -317
+      width: 1011
+      height: 634
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1011, y: 655}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GridPaintPaletteWindow
@@ -750,18 +1520,39 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1114
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1231
     y: 0
-    width: 435
-    height: 725
+    width: 318
+    height: 676
+=======
+    x: 876
+    y: 0
+    width: 226
+    height: 462
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+    x: 876
+    y: 0
+    width: 226
+    height: 462
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+    x: 876
+    y: 0
+    width: 226
+    height: 462
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_MinSize: {x: 242, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 10}
+  m_ActualView: {fileID: 11}
   m_Panes:
-  - {fileID: 10}
+  - {fileID: 11}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &10
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -781,10 +1572,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2480
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 2597
     y: 73
-    width: 433
-    height: 704
+    width: 316
+    height: 655
+=======
+    x: 876
+    y: 73
+    width: 224
+    height: 441
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+    x: 876
+    y: 73
+    width: 224
+    height: 441
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+    x: 876
+    y: 73
+    width: 224
+    height: 441
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -794,7 +1606,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &11
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -802,28 +1614,79 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 703
+    width: 1427
+    height: 244
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 10}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 676
+    width: 1549
+    height: 311
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 2}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+<<<<<<< Updated upstream
+    y: 462
+    width: 1102
+    height: 213
+=======
+<<<<<<< HEAD
+    y: 703
+    width: 1427
+    height: 244
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 10}
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+=======
     y: 725
     width: 1549
     height: 262
+>>>>>>> Stashed changes
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_Panes:
-  - {fileID: 12}
   - {fileID: 13}
-  - {fileID: 14}
-  - {fileID: 15}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 3
---- !u!114 &12
+--- !u!114 &10
+=======
+  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 2}
+  m_Selected: 3
+  m_LastSelected: 0
+--- !u!114 &13
+>>>>>>> parent of 86b5b7d (Revert "ss")
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -843,10 +1706,29 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1366
-    y: 798
+    y: 749
     width: 1548
-    height: 241
+    height: 290
+=======
+    x: 0
+<<<<<<< HEAD
+    y: 535
+    width: 1101
+    height: 192
+=======
+    y: 776
+    width: 1426
+    height: 223
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -856,7 +1738,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -891,8 +1773,33 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
+  m_LastSelectedObjectID: 30250
+--- !u!114 &12
+=======
+<<<<<<< HEAD
+  m_LastSelectedObjectID: 30108
+--- !u!114 &15
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+  m_LastSelectedObjectID: 30108
+=======
+  m_LastSelectedObjectID: 31442
+>>>>>>> Stashed changes
+=======
+=======
+<<<<<<< HEAD
+  m_LastSelectedObjectID: 30250
+--- !u!114 &12
+=======
+>>>>>>> Stashed changes
   m_LastSelectedObjectID: 30132
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
 --- !u!114 &14
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -961,7 +1868,10 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &15
+<<<<<<< HEAD
+--- !u!114 &16
+=======
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -981,10 +1891,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1366
-    y: 798
+    y: 748
     width: 1548
-    height: 241
+    height: 291
+=======
+    x: 0
+    y: 776
+    width: 1426
+    height: 223
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1007,24 +1924,55 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+<<<<<<< HEAD
+    - Assets
+=======
+    - Assets/Art
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Scripts
+<<<<<<< HEAD
+  - Assets
+=======
+  - Assets/Art
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_LastFoldersGridSize: 50
-  m_LastProjectPath: C:\Users\SOHAM\Documents\GitHub\design-championship2022-23\My
+  m_LastProjectPath: D:\Sid's OneDrive\OneDrive\Documents\GitHub\design-championship2022-23\My
     project (12)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 8c770000
+    m_LastClickedID: 30604
+    m_ExpandedIDs: 000000008c77000000ca9a3b
+=======
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ce780000
+    m_LastClickedID: 30926
+=======
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 149}
+    m_SelectedIDs: e87a0000
+    m_LastClickedID: 31464
+    m_ExpandedIDs: 000000008c77000000ca9a3b
+=======
     scrollPos: {x: 0, y: 131}
     m_SelectedIDs: 9e7a0000
     m_LastClickedID: 31390
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
     m_ExpandedIDs: 00000000cc780000ce780000d078000000ca9a3bffffff7f
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1052,7 +2000,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000008c77000000ca9a3b
+=======
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000cc780000ce780000d078000000ca9a3bffffff7f
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000036780000387800003a78000000ca9a3bffffff7f
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000008c77000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000cc780000ce780000d078000000ca9a3bffffff7f
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1077,10 +2041,42 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a7500003e7b00002c7b0000327b0000387b0000967a0000eac50000ee760000
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    m_SelectedInstanceIDs: ce780000
+    m_LastClickedInstanceID: 30926
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a75000000000000907b0000c47500009487000098870000e0800000
+=======
+    m_SelectedInstanceIDs: bed6fdff
+    m_LastClickedInstanceID: -141634
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a75000000000000907b0000c47500009487000098870000
+=======
+=======
+<<<<<<< HEAD
+    m_SelectedInstanceIDs: b0310000
+    m_LastClickedInstanceID: 12720
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a7500003e7b00002c7b0000327b0000387b0000967a0000eac50000ee760000
+=======
+>>>>>>> Stashed changes
     m_SelectedInstanceIDs: f8800000
     m_LastClickedInstanceID: 33016
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000076b1000088620000946800009668000098680000426e0000ac680000d0280000b4c3000028c1000080730000668500001a75000000000000907b0000c47500009487000098870000e0800000
+<<<<<<< Updated upstream
+=======
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of 86b5b7d (Revert "ss")
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1096,7 +2092,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1108,7 +2104,8 @@ MonoBehaviour:
     m_GridSize: 50
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 155
---- !u!114 &16
+--- !u!114 &14
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1123,6 +2120,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1549
     y: 0
     width: 371
@@ -1130,6 +2130,35 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    x: 1102
+    y: 0
+    width: 264
+    height: 675
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+=======
+    x: 1427
+    y: 0
+    width: 493
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
@@ -1155,10 +2184,36 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 2915
     y: 73
     width: 370
     height: 966
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+    x: 1102
+    y: 73
+    width: 263
+    height: 654
+=======
+    x: 1427
+    y: 73
+    width: 492
+    height: 926
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+=======
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1174,7 +2229,29 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
+  m_LastInspectedObjectInstanceID: 37620
+=======
+<<<<<<< HEAD
+  m_LastInspectedObjectInstanceID: -1
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+  m_LastInspectedObjectInstanceID: 30108
+=======
+  m_LastInspectedObjectInstanceID: 31822
+=======
   m_LastInspectedObjectInstanceID: 33016
+=======
+<<<<<<< HEAD
+  m_LastInspectedObjectInstanceID: 12720
+=======
+  m_LastInspectedObjectInstanceID: 33016
+>>>>>>> 002b1d55733e3176fb68d63eb995263c94ad6f47
+>>>>>>> f6faaa7cdf7031625e9ddadf615cb45742cf8249
+>>>>>>> Stashed changes
+>>>>>>> parent of da592af (Merge branch 'main' of https://github.com/mangokiddy/design-championship2022-23)
+>>>>>>> parent of 86b5b7d (Revert "ss")
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
