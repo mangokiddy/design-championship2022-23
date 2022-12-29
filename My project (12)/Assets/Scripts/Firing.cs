@@ -43,18 +43,13 @@ public class Firing : MonoBehaviour
         if(delay == 0||delay<=0)
         {
             shake.CamShake();
-            if(player.currentstate != player.die)
-            {
-                shake.CamShake();
-                player.ChangeState(player.shoot);
-                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-                rb.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse);
-                delay = 60;
-                yield return new WaitForSeconds(0.22f);
-                player.ChangeState(player.idle);
-            
-            }
+            player.ChangeState(player.shoot);
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse);
+            delay = 60;
+            yield return new WaitForSeconds(0.22f);
+            player.ChangeState(player.idle);
             
         }
         
