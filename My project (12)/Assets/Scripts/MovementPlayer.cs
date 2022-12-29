@@ -19,7 +19,6 @@ public class MovementPlayer : MonoBehaviour
 
     public int currenthealth = 5;
     public int maxhealth = 5;
-    public GameObject GameOverScreen;
     
     
     
@@ -33,7 +32,6 @@ public class MovementPlayer : MonoBehaviour
         animator = GetComponent<Animator>();
         currenthealth = maxhealth;
         R = GetComponent<SpriteRenderer>();
-        GameOverScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -113,7 +111,6 @@ public class MovementPlayer : MonoBehaviour
 
         if (currenthealth <= 0)
         {
-            GameOverScreen.SetActive(true);
             Destroy(GameObject.Find("player"), 0.01f);
         }
         

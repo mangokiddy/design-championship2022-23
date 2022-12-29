@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 1;
+    public int health = 3;
     public string idle= "Idle_enemy";
     public string run= "run";
     public string shoot = "attack";
@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
    
     void Start()
     {
-        health = 1;
+        
     }
     
     
@@ -45,14 +45,9 @@ public class Enemy : MonoBehaviour
         delay -=1;
         if(health <= 0)
         {
-            delay = 75;
             ChangeState(die);
             collider.enabled = false;
             r.constraints = RigidbodyConstraints2D.FreezeAll;
-            if(delay <=0)
-            {
-                Destroy(this);
-            }
            /*path.enabled = false;
             seek.enabled = false;
             setter.enabled = false;
@@ -64,7 +59,10 @@ public class Enemy : MonoBehaviour
         }
         
         
-        
+        if(delay < idledur)
+        {
+            delay = redelay;
+        }
         
     }
 
