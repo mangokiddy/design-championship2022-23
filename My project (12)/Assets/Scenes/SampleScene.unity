@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac3859aef1fd0846bcbb104ab6122e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 1
   idle: Idle_enemy
   run: run
   shoot: attack
@@ -136858,7 +136858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac3859aef1fd0846bcbb104ab6122e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 1
   idle: Idle_enemy
   run: run
   shoot: attack
@@ -144427,7 +144427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac3859aef1fd0846bcbb104ab6122e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 1
   idle: Idle_enemy
   run: run
   shoot: attack
