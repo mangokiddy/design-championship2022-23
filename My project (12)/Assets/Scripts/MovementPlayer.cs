@@ -19,12 +19,12 @@ public class MovementPlayer : MonoBehaviour
 
     public int currenthealth = 5;
     public int maxhealth = 5;
-    public GameObject GameOverScreen;
+    public bool GameEnded;
     
     
     
     
-    public string currentstate;
+    public string currentstate;   
 
     // Start is called before the first frame update
     private void Awake()
@@ -33,7 +33,7 @@ public class MovementPlayer : MonoBehaviour
         animator = GetComponent<Animator>();
         currenthealth = maxhealth;
         R = GetComponent<SpriteRenderer>();
-        GameOverScreen.SetActive(false);
+        GameEnded = false;
     }
 
     // Update is called once per frame
@@ -113,8 +113,11 @@ public class MovementPlayer : MonoBehaviour
 
         if (currenthealth <= 0)
         {
-            GameOverScreen.SetActive(true);
-            Destroy(GameObject.Find("player"), 0.01f);
+            GameEnded = true;
+        }
+        else
+        {
+            GameEnded = false;
         }
         
 
