@@ -26,7 +26,7 @@ public class enable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.Find("Color_Lock") == null)
+        if(GameObject.Find("heart") == null)
         {
             enemy1.SetActive(true);
             enemy2.SetActive(true);

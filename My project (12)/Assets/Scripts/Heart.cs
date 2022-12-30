@@ -15,7 +15,7 @@ public class Heart : MonoBehaviour
         if (other.gameObject.name == "player")
         {
             GameObject.Find("player").GetComponent<MovementPlayer>().currenthealth = 5;
-            Destroy(GameObject.Find("heart"), 0.09f);
+            Destroy(GameObject.Find("heart"), 0.10f);
         }    
     }
 
