@@ -7,6 +7,11 @@ public class bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject, 0.01f);  
+        if (other.gameObject.name == "Power Source")
+        {
+            GameObject.Find("Power Source").GetComponent<PowerSource>().currentPower -= 1f;
+        }
+
+        Destroy(gameObject, 0.03f);
     }
 }
