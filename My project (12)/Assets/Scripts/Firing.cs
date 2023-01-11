@@ -47,7 +47,7 @@ public class Firing : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse);
-            delay = 60;
+            delay = 30;
             yield return new WaitForSeconds(0.22f);
             player.ChangeState(player.idle);
             

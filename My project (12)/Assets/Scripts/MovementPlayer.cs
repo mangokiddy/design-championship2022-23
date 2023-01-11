@@ -151,7 +151,7 @@ public class MovementPlayer : MonoBehaviour
     }
     public void damage(int amount)
     {
-        hitdel = 100;
+        hitdel = 49;
         R.color = Color.red;
         currenthealth-=amount;
         
