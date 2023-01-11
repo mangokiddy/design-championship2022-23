@@ -9,7 +9,6 @@ public class enable : MonoBehaviour
     public GameObject enemy3;
     public GameObject enemy4;
     public GameObject enemy5;
-    public GameObject enemy6;
     
     
     // Start is called before the first frame update
@@ -20,7 +19,6 @@ public class enable : MonoBehaviour
         enemy3.SetActive(false);
         enemy4.SetActive(false);
         enemy5.SetActive(false);
-        enemy6.SetActive(false);
         
     }
 
@@ -34,7 +32,6 @@ public class enable : MonoBehaviour
             enemy3.SetActive(true);
             enemy4.SetActive(true);
             enemy5.SetActive(true);
-            enemy6.SetActive(true);
             
         }
     }

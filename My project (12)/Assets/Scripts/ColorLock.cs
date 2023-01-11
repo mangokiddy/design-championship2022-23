@@ -55,6 +55,7 @@ public class ColorLock : MonoBehaviour
         {
             Debug.Log("Boxes are Sorted");
             BoxSortText.SetActive(false);
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.lockOpened);
             Destroy(GameObject.Find("Color_Lock"), 0.03f);
         }
     }

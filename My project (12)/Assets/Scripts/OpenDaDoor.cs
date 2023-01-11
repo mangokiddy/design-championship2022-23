@@ -24,6 +24,7 @@ public class OpenDaDoor : MonoBehaviour
         if(other.gameObject.name == "Key")
         {
             FindTheKeyText.SetActive(false);
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.lockOpened);
             //Debug.Log("Door Opened");
             Destroy(gameObject, 0.01f);
             Destroy(GameObject.Find("Key"));

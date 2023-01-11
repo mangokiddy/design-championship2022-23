@@ -25,6 +25,7 @@ public class ContactWithPlayer : MonoBehaviour
             playerHasKey = true;
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.keyPickup);
         }
     }
 }

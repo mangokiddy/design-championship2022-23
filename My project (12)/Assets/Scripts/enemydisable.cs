@@ -9,8 +9,7 @@ public class enemydisable : MonoBehaviour
     public GameObject enemy3;
     public GameObject enemy4;
     public GameObject enemy5;
-    public GameObject enemy6;
-    public GameObject enemy7;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +18,6 @@ public class enemydisable : MonoBehaviour
         enemy3.SetActive(false);
         enemy4.SetActive(false);
         enemy5.SetActive(false);
-        enemy6.SetActive(false);
-        enemy7.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,8 +30,6 @@ public class enemydisable : MonoBehaviour
             enemy3.SetActive(true);
             enemy4.SetActive(true);
             enemy5.SetActive(true);
-            enemy6.SetActive(true);
-            enemy7.SetActive(true);
         }
     }
 }

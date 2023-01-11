@@ -50,6 +50,7 @@ public class Firing : MonoBehaviour
             delay = 30;
             yield return new WaitForSeconds(0.22f);
             player.ChangeState(player.idle);
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.shoot);
             
         }
         

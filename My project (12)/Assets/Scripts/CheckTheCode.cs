@@ -22,6 +22,7 @@ public class CheckTheCode : MonoBehaviour
         if(TheCodeEntered == RealCode)
         {
             GameObject.Find("NumberLock").SetActive(false);
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.lockOpened);
             Destroy(GameObject.Find("CyberLock"), 0.01f);
         }
 

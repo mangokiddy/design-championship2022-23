@@ -16,6 +16,7 @@ public class MovementPlayer : MonoBehaviour
     Enemy enemy;
     SpriteRenderer R;
     public int hitdel;
+    public bool isRunning;
 
     public int currenthealth = 5;
     public int maxhealth = 5;
@@ -29,6 +30,7 @@ public class MovementPlayer : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+        isRunning = false;
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currenthealth = maxhealth;
@@ -119,7 +121,7 @@ public class MovementPlayer : MonoBehaviour
         {
             GameEnded = false;
         }
-        
+
 
     }
     private void OnTriggerEnter2D(Collider2D col)

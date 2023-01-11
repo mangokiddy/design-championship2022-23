@@ -15,7 +15,8 @@ public class Heart : MonoBehaviour
         if (other.gameObject.name == "player")
         {
             GameObject.Find("player").GetComponent<MovementPlayer>().currenthealth = 5;
-            Destroy(GameObject.Find("heart"), 0.10f);
+            sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.keyPickup);
+            Destroy(GameObject.Find("heart"), 0.1f);
         }    
     }
 

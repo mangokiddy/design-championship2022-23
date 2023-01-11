@@ -45,10 +45,11 @@ public class Enemy : MonoBehaviour
         delay -=1;
         if(health <= 0)
         {
+            //sfxManageAudio.sfxInstance.Audio.PlayOneShot(sfxManageAudio.sfxInstance.deadEnemy);
             ChangeState(die);
             collider.enabled = false;
             r.constraints = RigidbodyConstraints2D.FreezeAll;
-           /*path.enabled = false;
+            /*path.enabled = false;
             seek.enabled = false;
             setter.enabled = false;
             /*if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Enemy_die"))
